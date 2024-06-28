@@ -34,7 +34,9 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            filename: 'index.html'
+            filename: 'index.html',
+            favicon: './src/img/restaurant-icon.svg',
+            favicon: './src/img/philippines-flag-icon.svg', // Add this line
         })
     ],
     devServer: {
